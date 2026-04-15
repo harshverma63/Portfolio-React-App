@@ -1,16 +1,115 @@
-# React + Vite
+# 🚀 React Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and animated personal portfolio website built using **React 19 + Vite**. This project showcases projects, skills, and contact functionality with a clean UI and smooth interactions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Features
 
-## React Compiler
+- ⚡ Built with **React 19** and **Vite**
+- 🎨 Clean and modern UI design
+- 📱 Fully responsive across all devices
+- 🧭 Smooth navigation with interactive sections
+- ✨ Custom cursor & particle background effects
+- 📬 Contact form integration using EmailJS
+- 🎯 Optimized performance and fast load times
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React 19, JSX, CSS
+- **Build Tool:** Vite
+- **Icons:** Lucide React, React Icons
+- **Email Service:** EmailJS
+- **Linting:** ESLint
+
+---
+
+## 📂 Project Structure
+PortfolioApp/
+│── src/
+│ ├── assets/ # Images & icons
+│ ├── Comps/
+│ │ ├── components/ # UI Components
+│ │ │ ├── Navbar.jsx
+│ │ │ ├── Hero.jsx
+│ │ │ ├── Sections.jsx
+│ │ │ ├── Contact.jsx
+│ │ │ ├── Cursor.jsx
+│ │ │ ├── ParticleBackground.jsx
+│ │ ├── styles.css
+│ │ ├── main.jsx
+│ │ ├── PortfolioApp.jsx
+│ ├── App.jsx
+│ ├── main.jsx
+│ ├── index.css
+│── index.html
+│── package.json
+│── vite.config.js
+
+
+---
+
+## ⚙️ Installation & Setup
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd PortfolioApp
+
+2. Install dependencies:
+npm install
+or (if using bun)
+bun install
+
+3. Start development server:
+npm run dev
+
+4. Build for production:
+npm run build
+
+5. Preview production build:
+npm run preview
+
+📧 Contact Form Setup (EmailJS)
+Create an account at EmailJS
+Create a service and email template
+Replace credentials inside the Contact component:
+emailjs.send(
+  "YOUR_SERVICE_ID",
+  "YOUR_TEMPLATE_ID",
+  formData,
+  "YOUR_PUBLIC_KEY"
+);
+
+🎯 Customization
+Update content inside components:
+Hero.jsx → Intro section
+Sections.jsx → Projects & experience
+Contact.jsx → Contact details
+Replace images in /assets
+Modify styles in CSS files
+
+🚀 Deployment
+You can deploy this project on:
+Netlify
+Vercel
+GitHub Pages
+
+Example (Netlify):
+Drag & drop dist folder after build
+
+🧹 Scripts
+npm run dev      # Start development
+npm run build    # Build project
+npm run preview  # Preview build
+npm run lint     # Run ESLint
+
+📄 License
+This project is open-source and free to use.
+
+👨‍💻 Author
+Harsh Verma
+
+⭐ Show Your Support:
+If you like this project, give it a ⭐ on GitHub!
