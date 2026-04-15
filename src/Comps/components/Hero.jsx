@@ -134,7 +134,7 @@ export default function Hero() {
       > */}
       <div
         className="hero-panel hero-panel-animate"
-        style={window.matchMedia("(max-width: 768px)") ? panelStyleMOB : panelStyle}
+        style={window.matchMedia("(max-width: 767px)").matches ? panelStyleMOB : panelStyle}
       >
         <div className="hero-panel-card">
           <div className="hero-panel-top-bar" />

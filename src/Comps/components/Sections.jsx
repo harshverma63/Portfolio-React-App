@@ -177,7 +177,7 @@ const projects = [
     desc: 'Role-based React v19 SPA with separate Project Manager and Employee login flows, credential validation against a live GitHub JSON API, and multi-filter task system — real-time search, status, priority, and My Tasks toggle all operating simultaneously across 10+ modular components.',
     metrics: ['100+ simulated users', '10+ components', 'Live on Vercel'],
     stack: ['React JS v19', 'JavaScript ES6+', 'localStorage', 'GitHub JSON API', 'Vite', 'Vercel'],
-    live: 'https://harshverma63.github.io/Portfolio/', gh: 'https://github.com/harshverma63',
+    live: 'https://project-management-dashboard-liard.vercel.app/', gh: 'https://github.com/harshverma63/Project-Management-Dashboard',
   },
   {
     emoji: <FaPeopleGroup />, badge: 'React JS · Dual Portal',
@@ -185,7 +185,7 @@ const projects = [
     desc: 'Dual-portal React SPA with Employee and HR login flows, role-based session management, live REST API integration with async data fetching, and real-time employee search. Fixed React re-render timing bugs and stale closure crashes across 4+ levels of prop drilling.',
     metrics: ['Dark/Light mode', 'REST API live', 'Mobile responsive'],
     stack: ['React JS v19', 'REST API', 'localStorage', 'JavaScript ES6+', 'Vercel'],
-    live: 'https://harshverma63.github.io/Portfolio/', gh: 'https://github.com/harshverma63',
+    live: 'https://emp-hr-dashboard-react.vercel.app/', gh: 'https://github.com/harshverma63/emp-hr-dashboard-react',
   },
   {
     emoji: <GoTasklist />, badge: 'React JS · App',
@@ -193,7 +193,7 @@ const projects = [
     desc: 'React task app with real-time clock, multi-state filtering (All/Active/Completed), inline editing with save/cancel controls, completion toggling, per-task CRUD, bulk clear with localStorage wipe, and persistent session storage.',
     metrics: ['Fully responsive', 'Persistent storage', 'Live on Vercel'],
     stack: ['React JS v19', 'JavaScript', 'CSS', 'Vercel'],
-    live: 'https://harshverma63.github.io/Portfolio/', gh: 'https://github.com/harshverma63',
+    live: 'https://priorly-sticky-task.vercel.app/', gh: 'https://github.com/harshverma63/Priorly-Sticky-Task',
   },
 ]
 
